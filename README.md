@@ -16,21 +16,22 @@ The source code can be directly called from python.
 Usage:
 --------------------------------
 python SRF.py 
-    -h              : Get Help
+
+    -h|--help: get help
   
-    -g|--genefile   : The Gene Expression Data File Path
+    -g|--genefile: the gene expression data file path
   
-    -m|--methyfile  : The Methylation Expression Data File Path
+    -m|--methyfile: the methylation expression data file path
   
-    -r|--mirnafile  : The microRNA Expression Data File Path
+    -r|--mirnafile: the miRNA expression data file path
   
-    -c|--clusternum : The Number of Clusters
+    -c|--clusternum: the number of clusters
   
-    -x|--weight1    : The Weight of Gene Expression Data
+    -x|--weight1: the weight of gene expression data
   
-    -y|--weight2    : The Weight of Methylation Expression Data
+    -y|--weight2: the weight of methylation expression data
   
-    -z|--weight3    : The Weight of microRNA Expression Data
+    -z|--weight3: the weight of microRNA expression data
   
        [NOTE: (x + y + z) = 1]
     
@@ -38,7 +39,7 @@ The examples of input files are available with test_net.txt, test_label.txt
 
 Example:
 --------------------------------
-python SRF.py -g GBM_Gene_Expression.txt -m GBM_Methy_Expression.txt -r GBM_Mirna_Expression.txt -c 3 -x 0.5 -y 0.3 -z 0.2 
+python SRF.py -g Gene_Expression.txt -m Methy_Expression.txt -r Mirna_Expression.txt -c 3 -x 0.5 -y 0.3 -z 0.2 
 
 #Input:
 
