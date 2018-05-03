@@ -15,23 +15,24 @@ Installation:
 
 Usage:
 --------------------------------
-  -h              : Get Help.
+python SRF.py 
+    -h              : Get Help.
   
-  -g/--genefile   : The Gene Expression Data File Path.
+    -g|--genefile   : The Gene Expression Data File Path.
   
-  -m/--methyfile  : The Methylation Expression Data File Path.
+    -m|--methyfile  : The Methylation Expression Data File Path.
   
-  -r/--mirnafile  : The microRNA Expression Data File Path.
+    -r|--mirnafile  : The microRNA Expression Data File Path.
   
-  -c/--clusternum : The Number of Clusters.
+    -c|--clusternum : The Number of Clusters.
   
-  -x/--weight1    : The Weight of Gene Expression Data.
+    -x|--weight1    : The Weight of Gene Expression Data.
   
-  -y/--weight2    : The Weight of Methylation Expression Data.
+    -y|--weight2    : The Weight of Methylation Expression Data.
   
-  -z/--weight3    : The Weight of microRNA Expression Data.
+    -z|--weight3    : The Weight of microRNA Expression Data.
   
-  [NOTE: (x + y + z) = 1]
+     [NOTE: (x + y + z) = 1]
     
 The examples of input files are available with test_net.txt, test_label.txt. 
 
