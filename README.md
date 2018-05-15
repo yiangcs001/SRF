@@ -39,7 +39,7 @@ The examples of input files are available with test_net.txt, test_label.txt
 
 Example:
 --------------------------------
-python SRF.py -g Gene_Expression.txt -m Methy_Expression.txt -r Mirna_Expression.txt -c 3 -x 0.5 -y 0.3 -z 0.2 
+python SRF.py -g Gene_Expression_Data.txt -m Methy_Expression_Data.txt -r Mirna_Expression_Data.txt -c 3 -x 0.5 -y 0.3 -z 0.2 
 
 #Input:
 
