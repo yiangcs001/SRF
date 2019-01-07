@@ -57,4 +57,4 @@ Patient Subtypes Labels. The first column represents patients' ID, and the secon
 ----------------------------------
 Copyright and License Information
 ----------------------------------
-Copyright (C) 2018 Northwestern Polytechnical University, Xi’an, China. Yang Guo(gyang@mail.nwpu.edu.cn), Jianning Zheng(jennings@mail.nwpu.edu.cn)
+Copyright (C) 2018 Northwestern Polytechnical University, Xi’an, China.
